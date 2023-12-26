@@ -47,6 +47,7 @@ const TypingGame = (props) => {
     const [words, setWords] = useState('');
     const[letterCount, setLetterCount] = useState(0);
     const[userInput, setUserInput] = useState('');
+    const[showround, setshowround] = useState(false);
 
     const[gameStart, setGameStart] = useState('');
     const[wpmStat, setWpmStat] = useState('');
@@ -78,11 +79,12 @@ const TypingGame = (props) => {
     const handleTime = (updatedTime) => {
       setTime(updatedTime);
       if (updatedTime > 0) {
-        const wordCount = Math.round(characterCount / 5); // Assuming 5 characters per word on average
+        // Calculate Wpm
+        const wordCount = Math.round(characterCount / 5);
         const timeInMinutes = updatedTime / 60; // Convert time to minutes for WPM calculation
-        setWpm(Math.round(wordCount / timeInMinutes)); // Calculate WPM
+        setWpm(Math.round(wordCount / timeInMinutes));
         const accuracyPercentage = ((characterCount - missedCharacter) / characterCount) * 100;
-        setAccuracy(Math.round(accuracyPercentage)); // Calculate Accuracy
+        setAccuracy(Math.round(accuracyPercentage));
       } else {
         setWpm(0);
         setAccuracy(0);
@@ -98,6 +100,7 @@ const TypingGame = (props) => {
 
     // Function to handle key press events
     const handleKeyDown = (e) => {
+      setshowround(false);
       const typed  = e.key;
       console.log("typed: " + typed);
       console.log("target: " + wordList.charAt(characterCount));
@@ -158,6 +161,7 @@ const TypingGame = (props) => {
     
     // Function to reset the game
     const resetGame = () => {
+      setshowround(true);
       setWordList("");
       setWords("");
       setUserInput("");
@@ -167,8 +171,8 @@ const TypingGame = (props) => {
       setMissedCharacter(0);
       setStartTimer(false);
       setTime(0);
-      // setWpm(0);
-      // setAccuracy(0);
+      //setWpm(0);
+      //setAccuracy(0);
       setGameRestart(false);
     };
 
@@ -181,6 +185,11 @@ const TypingGame = (props) => {
           <a className="timer">{time}</a>
           <div>Wpm:{wpm}</div>
           <div>Accuracy:{accuracy > 0? accuracy:0}%</div>
+        </div>
+
+        <div className="round_stats">
+          {showround? <div>WPM {wpm} Accuracy {accuracy > 0? accuracy:0}%</div>: false}
+          
         </div>
 
         <div className="word_show"> 

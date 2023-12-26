@@ -81,6 +81,16 @@
   padding-left: 110px;
   color: white;
   column-gap: 10px;
+  
+}
+
+.round_stats{
+  position: absolute;
+  top: 25%;
+  padding-left: 35%;
+  color: white;
+  column-gap: 10px;
+  font-size: 50px;
 }
 
 .word_show{

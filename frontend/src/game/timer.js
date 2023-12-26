@@ -29,10 +29,7 @@ const Timer = ({ onTimeUpdate }) => {
 
   // Render the Timer component
   return (
-    // Your JSX for Timer component goes here
-    // Example: <div>{formatTime(time)}</div>
-    // Replace the above line with your desired UI representation of time
-    <div>{/* Your time display goes here */}</div>
+    <div></div>
   );
 };
 
