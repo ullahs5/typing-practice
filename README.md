@@ -15,9 +15,9 @@ This platform allows users to create accounts and log in to access personalized 
 
 ### Authorization Note
 
-Please note that GitHub Pages, where this repository is deployed, supports static websites and does not support server-side processing or authorization. As a result, certain features requiring authorization may not function when accessed through the GitHub Pages deployment.
+<font color="red">Please note that GitHub Pages, where this repository is deployed, supports static websites and does not support server-side processing or authorization. As a result, certain features requiring authorization may not function when accessed through the GitHub Pages deployment.
 
-To fully experience all features, consider running the website locally. 
+To fully experience all features, consider running the website locally.</font>
 
 ## Demo
 
