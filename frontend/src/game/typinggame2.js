@@ -75,17 +75,6 @@ const TypingGame = (props) => {
     }, [gameRestart, wordsToShow]);
 
 
-    // Function to handle time updates
-    // const handleTime = (updatedTime) =>{
-    //   // Update time, calculate WPM, and accuracy
-    //   setTime(updatedTime);
-    //   if (updatedTime > 0) {
-    //     setWpm(Math.round((characterCount/5) / (time / 60)));
-    //     setAccuracy(Math.round(((characterCount - missedCharacter)/characterCount) * 100));
-    //   } else {
-    //     setWpm(0);
-    //   }
-    // }
     const handleTime = (updatedTime) => {
       setTime(updatedTime);
       if (updatedTime > 0) {

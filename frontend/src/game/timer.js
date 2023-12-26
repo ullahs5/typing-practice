@@ -26,18 +26,6 @@ const Timer = ({ onTimeUpdate }) => {
     onTimeUpdate(time);
   }, [time]);
 
-  // You can uncomment and use the formatTime function to display time in minutes and seconds
-  
-  // /**
-  //  * Format time from seconds to MM:SS format.
-  //  * @param {number} seconds - Time in seconds.
-  //  * @returns {string} Formatted time string (MM:SS).
-  //  */
-  // const formatTime = (seconds) => {
-  //   const minutes = Math.floor(seconds / 60);
-  //   const remainingSeconds = seconds % 60;
-  //   return `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
-  // };
 
   // Render the Timer component
   return (

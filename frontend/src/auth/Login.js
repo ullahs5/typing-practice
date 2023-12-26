@@ -30,19 +30,7 @@ const Login = (props) => {
     const handleClose = () => {
       setOpen(false);
     };
-    // const HandleLogin = () =>{
-    //     async function getData(){
-    //         await fetch(`http://localhost:8080/api/auth/authenticate`, {
-    //             method:"POST",
-    //             headers:{"Content-Type": "application/json"},
-    //             body:JSON.stringify(user)
-    //         }).then((response) => response.json())
-    //         .then((actualData) => {localStorage.setItem("token", actualData.token); localStorage.setItem("username", actualData.username); console.log(actualData); props.handleLogin(); props.setUsername(user.username)});
-            
-    //     }
-    //     getData();
-        
-    // }
+
     const HandleLogin = () => {
         async function getData() {
             try {
