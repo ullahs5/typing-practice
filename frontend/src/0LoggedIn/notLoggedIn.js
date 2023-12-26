@@ -7,7 +7,7 @@ const NotLoggedIn = (props) => {
 
     return(
         <div>
-            <div>
+            <div style={{display:"grid", rowGap:"10px"}}>
                 <Login setUsername={props.setUsername} handleLogin={props.handleLogin}></Login>
                 <Register></Register>
             </div>

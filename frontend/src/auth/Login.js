@@ -78,6 +78,9 @@ const Login = (props) => {
                 <Dialog open={open} onClose={handleClose} PaperProps={{style:{display:"flex", justifyContent:"center", width:"300px"}}}>
                     <DialogTitle>Login</DialogTitle>
                     <DialogContent>
+                    <text style={{display:"flex", color:"red", gap:"10px"}}>
+                        No authorization; github deploys static websites.
+                    </text>
                     <TextField style={{display:"flex"}}
                         autoFocus
                         id="name"
