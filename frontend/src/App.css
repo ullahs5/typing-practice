@@ -20,18 +20,6 @@
   color: rgb(218, 14, 14);
 }
 
-/* .custom-caret {
-  display: inline-block;
-  width: 2px;
-  height: 20px;
-  animation: blink-caret 0.7s step-end infinite;
-} 
-
-@keyframes blink-caret {
-  50% {
-    opacity: 0;
-  }
-} */
 
 
 .redLetter{
@@ -95,13 +83,15 @@
   column-gap: 10px;
 }
 
-.word_count{
+.word_show{
   display: flex;
   position: absolute;
-  top: 360px;
+  top: 350px;
   padding-left: 80%;
-  color: white;
+  gap: 10px;
 }
+
+
 
 
 .timer{

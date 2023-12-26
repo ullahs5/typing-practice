@@ -72,7 +72,7 @@ const Login = (props) => {
     return(
         <div>
             <div className="LoginDialogue" style={{paddingLeft:"100px", paddingTop:"5px"}}>
-                <Button variant="text" color="success" onClick={handleClickOpen}>
+                <Button variant="outlined" color="success" onClick={handleClickOpen}>
                 Login
                 </Button>
                 <Dialog open={open} onClose={handleClose} PaperProps={{style:{display:"flex", justifyContent:"center", width:"300px"}}}>

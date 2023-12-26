@@ -65,7 +65,7 @@ const Register = () => {
     return(
         <div>
             <div className="RegisterDialogue" style={{paddingLeft:"100px"}}>
-                <Button variant="text" onClick={handleClickOpen}>
+                <Button variant="outlined" onClick={handleClickOpen}>
                     Register
                 </Button>
                 <Dialog open={open} onClose={handleClose} PaperProps={{style:{display:"flex", justifyContent:"center", width:"300px"}}}>

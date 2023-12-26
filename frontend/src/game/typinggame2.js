@@ -183,10 +183,10 @@ const TypingGame = (props) => {
           <div>Accuracy:{accuracy > 0? accuracy:0}%</div>
         </div>
 
-        <div className="word_count"> 
-        <Button color="secondary" size="large" onClick={() => setWordsToShow(10)}>10</Button>
-        <Button color="secondary" size="large" onClick={() => setWordsToShow(30)}>30</Button>
-        <Button color="secondary" size="large" onClick={() => setWordsToShow(50)}>50</Button>
+        <div className="word_show"> 
+        <Button className="words_to_show" variant="outlined" color="secondary" size="large" onClick={() => setWordsToShow(10)}>10</Button>
+        <Button className="words_to_show" variant="outlined" color="secondary" size="large" onClick={() => setWordsToShow(30)}>30</Button>
+        <Button className="words_to_show" variant="outlined" color="secondary" size="large" onClick={() => setWordsToShow(50)}>50</Button>
         </div>
 
         <div className="type_it">
