@@ -11,11 +11,11 @@ This platform allows users to create accounts and log in to access personalized 
 - User Accounts: Create an account to personalize your typing experience.
 - Login Functionality: Log in securely to access your saved data and settings.
 - Progress Tracking: Save and track your average typing speed and accuracy over time.
-- Live WPM Display: Get real-time Words Per Minute (WPM) updates while typing.
+- Live WPM Display: Get real-time Words Per Minute updates while typing.
 
 ### Authorization Note
 
-**Note:** GitHub Pages, where this repository is deployed, supports static websites and does not support server-side processing or authorization. As a result, certain features requiring authorization may not function when accessed through the GitHub Pages deployment.
+**Note:** GitHub Pages supports static websites and does not support server-side processing or authorization. As a result, certain features requiring authorization may not function when accessed through the GitHub Pages deployment.
 
 To fully experience all features, consider running the website locally.
 
