@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/typing-practice/static/css/main.d75561d0.css",
-    "main.js": "/typing-practice/static/js/main.59d6828f.js",
+    "main.css": "/typing-practice/static/css/main.0b30cead.css",
+    "main.js": "/typing-practice/static/js/main.a33a1088.js",
     "static/js/787.b74596ab.chunk.js": "/typing-practice/static/js/787.b74596ab.chunk.js",
     "static/media/logo.svg": "/typing-practice/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/typing-practice/index.html",
-    "main.d75561d0.css.map": "/typing-practice/static/css/main.d75561d0.css.map",
-    "main.59d6828f.js.map": "/typing-practice/static/js/main.59d6828f.js.map",
+    "main.0b30cead.css.map": "/typing-practice/static/css/main.0b30cead.css.map",
+    "main.a33a1088.js.map": "/typing-practice/static/js/main.a33a1088.js.map",
     "787.b74596ab.chunk.js.map": "/typing-practice/static/js/787.b74596ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d75561d0.css",
-    "static/js/main.59d6828f.js"
+    "static/css/main.0b30cead.css",
+    "static/js/main.a33a1088.js"
   ]
 }
