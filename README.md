@@ -23,11 +23,11 @@ To fully experience all features, consider running the website locally.
 
 https://ullahs5.github.io/typing-practice/
 
-## Development
+## Installation
 
-[Include instructions for developers to set up and contribute to your project]
+-
 
 ## Roadmap
 
-[Outline upcoming features or improvements you plan to make]
+-
 
