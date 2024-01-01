@@ -2,6 +2,8 @@
 
 # Typing Website
 
+![Alt Text](img/prac.gif)
+
 The Typing Website is an interactive platform designed to help users enhance their typing skills while providing personalized progress tracking. It offers a seamless and engaging typing experience, focusing on improving typing speed and accuracy. 
 
 This platform allows users to create accounts and log in to access personalized features. Upon login, users can track their typing progress, including average typing speed and accuracy, which is saved and associated with their account. The website provides real-time Words Per Minute (WPM) updates, enabling users to gauge their typing speed as they practice.
