@@ -48,6 +48,8 @@ public class AuthenticationService {
         AuthenticationResponse response = new AuthenticationResponse();
         response.setToken(jwtToken);
         response.setUsername(user.getUsername());
+        response.setUserwpm(user.getAverageWPM());
+        response.setUseraccuracy(user.getAverageAccuracy());
         return response;
     }
 

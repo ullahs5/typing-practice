@@ -23,8 +23,15 @@ public class UserStatsController {
     @PostMapping("/api/stats/postuser")
     public ResponseEntity<User> putStats(@RequestBody statsRequest statsrequest){
         User user = userRepository.findByUsername(statsrequest.username()).orElseThrow();
-        user.setAverageAccuracy((user.getAverageAccuracy() + statsrequest.averageAccuracy()) / 2);
-        user.setAverageWPM((user.getAverageWPM() + statsrequest.averageWpm()) / 2);
+        if (user.getAverageWPM() != 0  && user.getAverageAccuracy() != 0){
+            user.setAverageAccuracy((user.getAverageAccuracy() + statsrequest.averageAccuracy()) / 2);
+            user.setAverageWPM((user.getAverageWPM() + statsrequest.averageWpm()) / 2);
+        }
+        else{
+            user.setAverageAccuracy(statsrequest.averageAccuracy());
+            user.setAverageWPM(statsrequest.averageWpm());
+        }
+
         userRepository.save(user);
         return ResponseEntity.ok(user);
     }

@@ -50,7 +50,7 @@ const Register = () => {
                 }
     
                 const actualData = await response.json();
-                console.log(actualData);
+                // console.log(actualData);
                 handleClose(); // Close registration form or perform any other action
             } catch (error) {
                 console.error("Error:", error.message);
@@ -71,9 +71,9 @@ const Register = () => {
                 <Dialog open={open} onClose={handleClose} PaperProps={{style:{display:"flex", justifyContent:"center", width:"300px"}}}>
                     <DialogTitle>Register</DialogTitle>
                     <DialogContent>
-                    <text style={{display:"flex", color:"red", gap:"10px"}}>
+                    <a style={{display:"flex", color:"red", gap:"10px"}}>
                         No authorization; github deploys static websites.
-                    </text>
+                    </a>
                     <TextField style={{display:"flex"}}
                         autoFocus
                         id="name"

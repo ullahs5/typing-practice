@@ -56,7 +56,9 @@ const Login = (props) => {
                 const actualData = await response.json();
                 localStorage.setItem("token", actualData.token);
                 localStorage.setItem("username", actualData.username);
-                console.log(actualData);
+                localStorage.setItem("userwpm", actualData.userwpm);
+                localStorage.setItem("useraccuracy", actualData.useraccuracy);
+                // console.log(actualData);
                 props.handleLogin();
                 props.setUsername(user.username);
             } catch (error) {
@@ -78,9 +80,9 @@ const Login = (props) => {
                 <Dialog open={open} onClose={handleClose} PaperProps={{style:{display:"flex", justifyContent:"center", width:"300px"}}}>
                     <DialogTitle>Login</DialogTitle>
                     <DialogContent>
-                    <text style={{display:"flex", color:"red", gap:"10px"}}>
+                    <a style={{display:"flex", color:"red", gap:"10px"}}>
                         No authorization; github deploys static websites.
-                    </text>
+                    </a>
                     <TextField style={{display:"flex"}}
                         autoFocus
                         id="name"
