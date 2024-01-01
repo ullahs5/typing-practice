@@ -25,9 +25,15 @@ To fully experience all features, consider running the website locally.
 
 https://ullahs5.github.io/typing-practice/
 
-## Installation
+## Setup
+### Backend (Spring Boot)
+1. You need Docker Desktop to set up a postgres instance in your local environment.
+2. Configure your jdk.
+3. Run the docker-compose.yml, use a new port if the current one already exists.
+4. Run the Main application under the demo folder. 
 
--
+### Frontend (React.js)
+1. Run 'npm start' in the terminal. Make sure you're in the 'frontend' directory where 'package.json' is apparent. 
 
 ## Roadmap
 
