@@ -1,6 +1,6 @@
 *Still documenting
 
-# Typing Website
+# Typing practice website
 
 ![Alt Text](img/prac.gif)
 
