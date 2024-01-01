@@ -8,10 +8,10 @@ This platform allows users to create accounts and log in to access personalized 
 
 ## Features
 
-- User Accounts: Create an account to personalize your typing experience.
-- Login Functionality: Log in securely to access your saved data and settings.
-- Progress Tracking: Save and track your average typing speed and accuracy over time.
-- Live WPM Display: Get real-time Words Per Minute updates while typing.
+- **User Accounts:** Create an account to personalize your typing experience.
+- **Login Functionality:** Log in securely to access your saved data and settings.
+- **Progress Tracking:** Save and track your average typing speed and accuracy over time.
+- **Live WPM Display:** Get real-time Words Per Minute updates while typing.
 
 ### Authorization Note
 
@@ -23,11 +23,11 @@ To fully experience all features, consider running the website locally.
 
 https://ullahs5.github.io/typing-practice/
 
-## Development
+## Installation
 
-[Include instructions for developers to set up and contribute to your project]
+-
 
 ## Roadmap
 
-[Outline upcoming features or improvements you plan to make]
+-
 
